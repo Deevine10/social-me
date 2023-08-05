@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <h2 class="logo">DeeSocial</h2>
+        <div class="search-bar">
+          <input
+            type="search"
+            placeholder="Search for creators, inspirations and projects"
+          />
+        </div>
+        <div class="create">
+          <label class="btn btn-primary" for="create post">create</label>
+          <div class="profile-picture">
+            <img src="./images/pexels-engin-akyurt-1642228.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container">
+        <div class="left">
+          <a class="profile">
+            <div class="profile-picture">
+              <img src="./images//pexels-engin-akyurt-1642228.jpg" alt="" />
+            </div>
+            <div class="handle">
+              <h4>Morgan Mary</h4>
+              <p class="text-muted">@may1</p>
+            </div>
+          </a>
+          <div class="sidebar">
+            <a class="menu-items active">
+              <span><i class="vil vil-homes"></i></span>
+              <h3>Home</h3>
+            </a>
+            <a class="menu-items">
+              <span><i class="vil vil-homes"></i></span>
+              <h3>Explore</h3>
+            </a>
+            <a class="menu-items" id="notifications">
+              <span
+                ><i class="vil vil-homes"
+                  ><small class="notification-count">9+</small></i
+                ></span
+              >
+              <h3>Notifications</h3>
+              <div class="notifications-popup">
+                <div>
+                  <div class="profile-picture">
+                    <img src="./images/pexels-chloe-1043474.jpg" alt="" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Erik Ben</b> accepted your friend request
+                    <small class="text-muted">2 days ago</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-picture">
+                    <img
+                      src="./images/pexels-daniel-xavier-1121796.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="notification-body">
+                    <b>Daniel Xavier</b> commented on your post
+                    <small class="text-muted">An hour ago</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-picture">
+                    <img
+                      src="./images/pexels-edgar-serrano-1964970.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="notification-body">
+                    <b>Edgar Saro</b> commented on a post you were tagged in
+                    <small class="text-muted">2 hoursago</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-picture">
+                    <img src="./images/pexels-marx-ilagan-616376.jpg" alt="" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Marx Ilagan</b> commented on your post
+                    <small class="text-muted">2 hoursago</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-picture">
+                    <img src="./images/pexels-pixabay-532220.jpg" alt="" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Engin Akyurt</b> and <b>283 others</b> liked your post
+                    <small class="text-muted">2 hoursago</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-picture">
+                    <img src="./images/pexels-pixabay-301958.jpg" alt="" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Pixababy Eti</b> tagged you in a post
+                    <small class="text-muted">2 hoursago</small>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="menu-items" id="messages-notifications">
+              <span
+                ><i class="vil vil-homes"
+                  ><small class="notification-count">6</small></i
+                ></span
+              >
+              <h3>Messages</h3>
+            </a>
+            <a class="menu-items">
+              <span><i class="vil vil-homes"></i></span>
+              <h3>Bookmarks</h3>
+            </a>
+            <a class="menu-items">
+              <span><i class="vil vil-homes"></i></span>
+              <h3>Analytics</h3>
+            </a>
+            <a class="menu-items">
+              <span><i class="vil vil-homes"></i></span>
+              <h3>Theme</h3>
+            </a>
+            <a class="menu-items">
+              <span><i class="vil vil-homes"></i></span>
+              <h3>Settings</h3>
+            </a>
+          </div>
+          <label for="create-post" class="btn btn-primary">Create Post</label>
+        </div>
+        <div class="middle">
+          <div class="stories">
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./images/pexels-jane-doan-1092730.jpg" alt="" />
+              </div>
+              <p class="name">Your Story</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img
+                  src="./images/pexels-nguyễn-xuân-trung-899757.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="name">Lilian Edwin</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./images/pexels-valeria-boltneva-842571.jpg" alt="" />
+              </div>
+              <p class="name">Joshua Tony</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./images/pexels-edgar-serrano-1964970.jpg" alt="" />
+              </div>
+              <p class="name">Clinton Marx</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./images/pexels-marx-ilagan-616376.jpg" alt="" />
+              </div>
+              <p class="name">Favour Kaycee</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./images/IMG_2718.jpg" alt="" />
+              </div>
+              <p class="name">Precious Rowland</p>
+            </div>
+          </div>
+          <form class="create-post">
+            <div class="profile-picture">
+              <img src="./images/pexels-engin-akyurt-1642228.jpg" />
+            </div>
+            <input
+              type="text"
+              placeholder="Whats on your mind Morgan"
+              id="create-post"
+            />
+            <input type="submit" value="post" class="btn btn-primary" />
+          </form>
+          <div class="feeds">
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img
+                      src="./images/pexels-tuấn-kiệt-jr-1321909.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="info">
+                    <h3>Solana Rose</h3>
+                    <small>Dubai, 15mins ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="vil-vil"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/white blog.jpg" alt="" />
+              </div>
+              <div class="action-button">
+                <div class="interaction-button">
+                  <span><i class="vil-vil"></i> </span>
+                  <span><i class="vil-vil"></i> </span>
+                </div>
+                <div class="bookmarks">
+                  <span><i class="vil-vil"></i> </span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span
+                  ><img src="./images/pexels-marx-ilagan-616376.jpg" alt=""
+                /></span>
+                <span
+                  ><img src="./images/pexels-edgar-serrano-1964970.jpg" alt=""
+                /></span>
+                <span
+                  ><img src="./images/pexels-italo-melo-2379004.jpg" alt=""
+                /></span>
+                <p>Liked by <b>Fidel Mart</b> and 658 others</p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Solana Rose</b> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quibusdam, ex.
+                  <span class="hash-tag">#Lifestyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 487 comments</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img
+                      src="./images/pexels-nguyễn-xuân-trung-899757.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="info">
+                    <h3>Emma Rose</h3>
+                    <small>Maldives, 2hours ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="vil-vil"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img
+                  src="./images/pexels-asad-photo-maldives-1450354.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="action-button">
+                <div class="interaction-button">
+                  <span><i class="vil-vil"></i> </span>
+                  <span><i class="vil-vil"></i> </span>
+                </div>
+                <div class="bookmarks">
+                  <span><i class="vil-vil"></i> </span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span
+                  ><img src="./images/pexels-marx-ilagan-616376.jpg" alt=""
+                /></span>
+                <span
+                  ><img src="./images/pexels-edgar-serrano-1964970.jpg" alt=""
+                /></span>
+                <span
+                  ><img src="./images/pexels-italo-melo-2379004.jpg" alt=""
+                /></span>
+                <p>Liked by <b>Fidel Mart</b> and 478 others</p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Emma Rose</b> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quibusdam, ex.
+                  <span class="hash-tag">#Vacation</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 487 comments</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img
+                      src="./images/pexels-engin-akyurt-1642228.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="info">
+                    <h3>Kimberly Smith</h3>
+                    <small>Carlifornia, 15mins ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="vil-vil"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/pexels-elina-fairytale-3823039.jpg" alt="" />
+              </div>
+              <div class="action-button">
+                <div class="interaction-button">
+                  <span><i class="vil-vil"></i> </span>
+                  <span><i class="vil-vil"></i> </span>
+                </div>
+                <div class="bookmarks">
+                  <span><i class="vil-vil"></i> </span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span
+                  ><img src="./images/pexels-marx-ilagan-616376.jpg" alt=""
+                /></span>
+                <span
+                  ><img src="./images/pexels-edgar-serrano-1964970.jpg" alt=""
+                /></span>
+                <span
+                  ><img src="./images/pexels-italo-melo-2379004.jpg" alt=""
+                /></span>
+                <p>Liked by <b>Fidel Mart</b> and 658 others</p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Kimberly Smith</b> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quibusdam, ex.
+                  <span class="hash-tag">#Gym</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 487 comments</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./images/pexels-italo-melo-2379004.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>System Codes</h3>
+                    <small>Lagos, 2secs ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="vil-vil"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/pexels-chan-walrus-958545.jpg" alt="" />
+              </div>
+              <div class="action-button">
+                <div class="interaction-button">
+                  <span><i class="vil-vil"></i> </span>
+                  <span><i class="vil-vil"></i> </span>
+                </div>
+                <div class="bookmarks">
+                  <span><i class="vil-vil"></i> </span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span
+                  ><img src="./images/pexels-marx-ilagan-616376.jpg" alt=""
+                /></span>
+                <span
+                  ><img src="./images/pexels-edgar-serrano-1964970.jpg" alt=""
+                /></span>
+                <span
+                  ><img src="./images/pexels-italo-melo-2379004.jpg" alt=""
+                /></span>
+                <p>Liked by <b>Fidel Mart</b> and 376 others</p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>System Codes</b> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quibusdam, ex.
+                  <span class="hash-tag">#Food</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 487 comments</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img
+                      src="./images/pexels-daniel-xavier-1121796.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="info">
+                    <h3>Martins Fishburne</h3>
+                    <small>Florida, 33mins ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="vil-vil"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/pexels-tuấn-kiệt-jr-1321909.jpg" alt="" />
+              </div>
+              <div class="action-button">
+                <div class="interaction-button">
+                  <span><i class="vil-vil"></i> </span>
+                  <span><i class="vil-vil"></i> </span>
+                </div>
+                <div class="bookmarks">
+                  <span><i class="vil-vil"></i> </span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span
+                  ><img src="./images/pexels-marx-ilagan-616376.jpg" alt=""
+                /></span>
+                <span
+                  ><img src="./images/pexels-edgar-serrano-1964970.jpg" alt=""
+                /></span>
+                <span
+                  ><img src="./images/pexels-italo-melo-2379004.jpg" alt=""
+                /></span>
+                <p>Liked by <b>Fidel Mart</b> and 973 others</p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Martins Fishburne</b> Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Quibusdam, ex.
+                  <span class="hash-tag">#Beauty</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 487 comments</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./images/guyy.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>Deyjee Vinx</h3>
+                    <small>Las Vegas, 30mins ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="vil-vil"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img
+                  src="./images/pexels-vidal-balielo-jr-3376797.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="action-button">
+                <div class="interaction-button">
+                  <span><i class="vil-vil"></i> </span>
+                  <span><i class="vil-vil"></i> </span>
+                </div>
+                <div class="bookmarks">
+                  <span><i class="vil-vil"></i> </span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span
+                  ><img src="./images/pexels-marx-ilagan-616376.jpg" alt=""
+                /></span>
+                <span
+                  ><img src="./images/pexels-edgar-serrano-1964970.jpg" alt=""
+                /></span>
+                <span
+                  ><img src="./images/pexels-italo-melo-2379004.jpg" alt=""
+                /></span>
+                <p>Liked by <b>Fidel Mart</b> and 246 others</p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Deyjee Vinx</b> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quibusdam, ex.
+                  <span class="hash-tag">#Newborn</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 487 comments</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./images/pexels-chloe-1043474.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>Clinton Maxi</h3>
+                    <small>Maryland, 3hours ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="vil-vil"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/pexels-yury-kim-585419.jpg" alt="" />
+              </div>
+              <div class="action-button">
+                <div class="interaction-button">
+                  <span><i class="vil-vil"></i> </span>
+                  <span><i class="vil-vil"></i> </span>
+                </div>
+                <div class="bookmarks">
+                  <span><i class="vil-vil"></i> </span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span
+                  ><img src="./images/pexels-marx-ilagan-616376.jpg" alt=""
+                /></span>
+                <span
+                  ><img src="./images/pexels-edgar-serrano-1964970.jpg" alt=""
+                /></span>
+                <span
+                  ><img src="./images/pexels-italo-melo-2379004.jpg" alt=""
+                /></span>
+                <p>Liked by <b>Fidel Mart</b> and 578 others</p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Clinton Maxi</b> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quibusdam, ex.
+                  <span class="hash-tag">#Engineer</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 487 comments</div>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="messages">
+            <div class="heading">
+              <h4>Messages</h4>
+              <i class="vil-vil"></i>
+            </div>
+            <div class="search-bar">
+              <i class="vil-vil"></i>
+              <input
+                type="search"
+                placeholder="Search-Messages"
+                id="message-search"
+              />
+            </div>
+            <div class="category">
+              <h6 class="active">Primary</h6>
+              <h6>General</h6>
+              <h6 class="message-requests">Requests(7)</h6>
+            </div>
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./images/pexels-pixabay-532220.jpg" alt="" />
+              </div>
+              <div class="message-body">
+                <h5>Edwin Frank</h5>
+                <p class="text-muted">i am eating already</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./images/guyy.jpg" alt="" />
+              </div>
+              <div class="message-body">
+                <h5>Francis Edward</h5>
+                <p class="text-muted">i love you</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./images/IMG_2718.jpg" alt="" />
+              </div>
+              <div class="message-body">
+                <h5>Victoria Bush</h5>
+                <p class="text-muted">i will be coming over tomorrow</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./images/pexels-antoni-shkraba-5215024.jpg" alt="" />
+              </div>
+              <div class="message-body">
+                <h5>Toria Simba</h5>
+                <p class="text-muted">Bring the medications</p>
+              </div>
+            </div>
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./images/pexels-edgar-serrano-1964970.jpg" alt="" />
+              </div>
+              <div class="message-body">
+                <h5>Prinxe Vinx</h5>
+                <p class="text-muted">Fuck you</p>
+              </div>
+            </div>
+          </div>
+          <div class="friend-request">
+            <h4>Requests</h4>
+            <div class="request">
+              <div class="info">
+                <div class="profile-picture">
+                  <img
+                    src="./images/pexels-antoni-shkraba-5215024.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h5>Martins Gloria</h5>
+                  <p class="text-muted">4 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+            <div class="request">
+              <div class="info">
+                <div class="profile-picture">
+                  <img src="./images/guyy.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>Victor Promise</h5>
+                  <p class="text-muted">4 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+            <div class="request">
+              <div class="info">
+                <div class="profile-picture">
+                  <img src="./images/pexels-italo-melo-2379004.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>Fredrick Leonard</h5>
+                  <p class="text-muted">4 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+            <div class="request">
+              <div class="info">
+                <div class="profile-picture">
+                  <img src="./images/pexels-marx-ilagan-616376.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>Seth Jessica</h5>
+                  <p class="text-muted">4 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+            <div class="request">
+              <div class="info">
+                <div class="profile-picture">
+                  <img src="./images/pexels-edgar-serrano-1964970.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>Edgar Samuel</h5>
+                  <p class="text-muted">4 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+            <div class="request">
+              <div class="info">
+                <div class="profile-picture">
+                  <img src="./images/pexels-daniel-xavier-1121796.jpg" alt="" />
+                </div>
+                <div>
+                  <h5>Daniel Micheal</h5>
+                  <p class="text-muted">4 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+            <div class="request">
+              <div class="info">
+                <div class="profile-picture">
+                  <img
+                    src="./images/pexels-nguyễn-xuân-trung-899757.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h5>Damian Mike</h5>
+                  <p class="text-muted">4 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
